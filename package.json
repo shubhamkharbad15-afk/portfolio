@@ -1,0 +1,12 @@
+{
+  "name": "shubham-kharbad-portfolio",
+  "version": "1.0.0",
+  "description": "Full-stack personal portfolio for Shubham Kharbad",
+  "private": true,
+  "scripts": {
+    "install:all": "npm install && cd client && npm install && cd ../server && npm install",
+    "client": "npm --prefix client run dev",
+    "server": "npm --prefix server run start",
+    "dev": "node run-all.js"
+  }
+}
